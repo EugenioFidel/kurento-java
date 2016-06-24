@@ -1,0 +1,65 @@
+{
+
+"archiva": {
+"metadata" : {"org.kurento":"ARCHIVA_IP"},
+"artifacts": [
+{"artifact":"kurento-client","version":"6.4.1"},
+{"artifact":"kurento-client","version":"6.1.1"},
+{"artifact":"kurento-commons","version":"6.4.1"},
+{"artifact":"kurento-jsonrpc","version":"6.4.1"},
+{"artifact":"kurento-parent-pom","version":"6.4.1"},
+{"artifact":"kurento-repository-client","version":"6.4.1"},
+{"artifact":"Repositorio-inexistente","version":"6.4.1"}
+] 
+},
+
+  "npm": {
+    "metadata" : {"kurento": "kurento"},
+    "artifacts": [
+      {"artifact":"kurento-client-core", "version":"6.5.0"},
+      {"artifact":"kurento-client-elements", "version":"6.5.0"},
+      {"artifact":"kurento-client-filters", "version":"6.5.0"},
+      {"artifact":"kurento-jsonrpc", "version":"5.1.2"},
+      {"artifact":"kurento-utils", "version":"6.5.0"},
+      {"artifact":"kurento-client", "version":"6.5.0"}
+    ]
+  },
+  "bower": {
+    "metadata" : {"kurento": "kurento"},
+    "artifacts": [
+      {"artifact":"kurento-jsonrpc", "version":"5.1.2"},
+      {"artifact":"kurento-utils", "version":"6.5.0"},
+      {"artifact":"kurento-client", "version":"6.5.0"}
+    ]
+  },
+  "maven": {
+    "metadata" : {"kurento/kurento-java":"org.kurento"},
+    "artifacts": [
+      {"artifact":"kurento-module-creator", "version":"4.0.5"},
+      {"artifact":"kms-api-core", "version":"6.5.0"},
+      {"artifact":"kms-api-elements", "version":"6.5.0"},
+      {"artifact":"kms-api-filters", "version":"6.5.0"},
+      {"artifact":"kurento-jsonrpc-js", "version":"5.1.2"},
+      {"artifact":"kurento-utils-js", "version":"6.5.0"},
+      {"artifact":"kurento-client-js", "version":"6.5.0"}
+    ]
+  },
+  "github": {
+   "metadata" : {"kurento/kurento-java": "Not_needed"},
+    "artifacts": [
+      {"artifact": "https://github.com/kurento/kurento-module-creator", "version":"4.0.5"},
+      {"artifact": "https://github.com/kurento/kms-core", "version":"6.5.0"},
+      {"artifact": "https://github.com/kurento/kurento-client-core-js", "version":"6.5.0"},
+      {"artifact": "https://github.com/kurento/kms-elements", "version":"6.5.0"},
+      {"artifact": "https://github.com/kurento/kurento-client-elements-js", "version":"6.5.0"},
+      {"artifact": "https://github.com/kurento/kms-filters", "version":"6.5.0"},
+      {"artifact": "https://github.com/kurento/kurento-client-filters-js", "version":"6.5.0"},
+      {"artifact": "https://github.com/kurento/kurento-jsonrpc-js", "version":"5.1.2"},
+      {"artifact": "https://github.com/kurento/kurento-jsonrpc-bower", "version":"5.1.2"},
+      {"artifact": "https://github.com/kurento/kurento-utils-js", "version":"6.5.0"},
+      {"artifact": "https://github.com/kurento/kurento-utils-bower", "version":"6.5.0"},
+      {"artifact": "https://github.com/kurento/kurento-client-js", "version":"6.5.0"},
+      {"artifact": "https://github.com/kurento/kurento-client-bower", "version":"6.5.0"}
+    ]
+  }
+}
